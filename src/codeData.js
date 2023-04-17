@@ -357,7 +357,7 @@ const data = [
         code: `
       <div class="flex justify-center items-center gap-2 w-full space-y-1">
         <div class="block text-sm text-white text-lg">Password :-</div>     
-          <input type="password" name="url" id="url" placeholder="Enter Password..." class="flex-1 border-0 p-2 focus:outline-none focus:ring-2 focus:ring-red-500 sm:text-sm text-lg rounded-md">
+          <input type="password" placeholder="Enter Password..." class="flex-1 border-0 p-2 focus:outline-none focus:ring-2 focus:ring-red-500 sm:text-sm text-lg rounded-md">
       </div>
     `,
       },
@@ -372,7 +372,7 @@ const data = [
         code: `
       <div class="flex justify-center items-center gap-2 w-full space-y-1">
         <div class="block text-sm text-white text-lg">Number :-</div>     
-          <input type="number" name="url" id="url" placeholder="Enter number..." class="flex-1 border-0 p-2 focus:outline-none focus:ring-2 focus:ring-lime-400 sm:text-sm text-lg rounded-md">
+          <input type="number" placeholder="Enter number..." class="flex-1 border-0 p-2 focus:outline-none focus:ring-2 focus:ring-lime-400 sm:text-sm text-lg rounded-md">
       </div>
     `,
       },
@@ -385,9 +385,9 @@ const data = [
         copyText: "Copy Code",
 
         code: `
-      <div class="flex justify-center items-center gap-2 w-full space-y-1">
+      <div class="flex justify-center items-center gap-2 mx-2">
         <div class="block text-sm text-white text-lg">Upload file :-</div>     
-          <input type="file" name="url" id="url" class="flex-1 bg-white border-0 p-2 sm:text-sm text-lg rounded-md">
+          <input type="file" class="flex-1 bg-white border-0 p-2 sm:text-sm text-lg rounded-md w-full">
       </div>
     `,
       },
