@@ -519,6 +519,168 @@ const data = [
       },
     ],
   },
+
+  {
+    Card: [
+      {
+        id: 1,
+        common: "Card",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `
+      <div class="flex flex-wrap justify-center items-center gap-2">
+        <card class="bg-[#f9fd91] flex flex-col p-4 rounded-md gap-2 font-[Poppins] w-[300px]">
+         <div class="text-[#040300] flex flex-col gap-2">
+          <h5 class="text-[#a2a760] text-xs">PLANS</h5>
+          <h1 class="font-bold text-xl">Fixed Income</h1>
+          <h4 class="text-xs">Get multiple benefits and lumpsum option & Guaranteed Returns
+          </h4>
+         </div>
+         <div class="flex justify-between items-center">
+          <div>
+            <h4 class="text-[#040300] text-xs">5 yrs CAGR</h4>
+            <h1 class="font-bold text-xl">8.20%</h1>
+          </div>
+          <h5 class="text-white p-1 rounded bg-[#000]">ENROLL</h5>
+         </div>
+        </card>
+        <card class="bg-[#cb9bfb] flex flex-col p-4 rounded-md gap-2 font-[Poppins] w-[300px]">
+         <div class="text-[#040300] flex flex-col gap-2">
+          <h5 class="text-[#a2a760] text-xs">PLANS</h5>
+          <h1 class="font-bold text-xl">Fixed Income</h1>
+          <h4 class="text-xs">Get multiple benefits and lumpsum option & Guaranteed Returns
+          </h4>
+         </div>
+         <div class="flex justify-between items-center">
+          <div>
+            <h4 class="text-[#040300] text-xs">5 yrs CAGR</h4>
+            <h1 class="font-bold text-xl">8.20%</h1>
+          </div>
+          <h5 class="text-white p-1 rounded bg-[#000]">ENROLL</h5>
+         </div>
+        </card>
+        <card class="bg-[#5fcca0] flex flex-col p-4 rounded-md gap-2 font-[Poppins] w-[300px]">
+         <div class="text-[#040300] flex flex-col gap-2">
+          <h5 class="text-[#a2a760] text-xs">PLANS</h5>
+          <h1 class="font-bold text-xl">Fixed Income</h1>
+          <h4 class="text-xs">Get multiple benefits and lumpsum option & Guaranteed Returns
+          </h4>
+         </div>
+         <div class="flex justify-between items-center">
+          <div>
+            <h4 class="text-[#040300] text-xs">5 yrs CAGR</h4>
+            <h1 class="font-bold text-xl">8.20%</h1>
+          </div>
+          <h5 class="text-white p-1 rounded bg-[#000]">ENROLL</h5>
+         </div>
+        </card>
+      </div>
+    `,
+      },
+      {
+        id: 2,
+        common: "Card",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `
+      <div class="flex justify-center items-center">
+         <card class="bg-[#3C486B] flex flex-col p-2 text-white rounded-md gap-2 font-   [Poppins] w-[300px]">
+           <div class="bg-[#F0F0F0] h-28 w-full rounded"></div>
+           <div class="flex justify-between items-end">
+             <div>
+               <h4 class="text-xl">Product Name</h4>
+               <p class="font-bold text-xs">Description : </p>
+               <h4 class="font-bold text-xs">Price : </h4>
+             </div>
+             <h5 class="text-white p-1 rounded bg-[#F45050]">Add to cart</h5>
+           </div>
+         </card>
+      </div>
+    `,
+      },
+      {
+        id: 3,
+        common: "Card",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `
+<div class="flex justify-center items-center">
+    <card class="bg-gradient-to-r from-indigo-500 via-purple-500 to-[#D61355] border-l-8 p-2 text-white rounded-md flex flex-col font-[Poppins] w-[300px]">
+      <div class="flex gap-1">
+        <div class="bg-gray-300 h-28 w-full rounded"></div>
+        <div class="h-28 w-full rounded font-bold text-[25px] text-yellow-300 font-[Righteous]">
+          MOST <br /> SALE <br /> PRODUCT
+        </div>
+        <div>
+          <svg
+            class="animate-bounce w-6 h-6 text-yellow-500"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path d="M10 1l2.928 5.5 6.072.878-4.396 4.307.92 6.417L10 15.238l-4.524 2.865.92-6.417L1 7.378l6.072-.878L10 1z" />
+          </svg>
+        </div>
+      </div>
+    </card>
+</div>
+    `,
+      },
+      {
+        id: 4,
+        common: "Card",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `
+<div class="flex justify-center items-center">
+  <card>
+    <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-2">
+    <div class="p-2 flex gap-2 justify-start items-center w-[300px] rounded border">
+      <div class="h-12 w-12 rounded-full bg-gray-500"></div>
+      <div class="flex flex-col flex-start">
+        <h1 class="text-yellow-300 font-bold">Hitesh Chaudhary</h1>
+        <h2 class="text-gray-300">CEO-Magnite Solutions</h2>
+      </div>
+    </div>
+    <div class="p-2 flex gap-2 justify-start items-center w-[300px] rounded border">
+      <div class="h-12 w-12 rounded-full bg-gray-500"></div>
+      <div class="flex flex-col flex-start">
+        <h1 class="text-yellow-300 font-bold">Rushikesh Dhanawade</h1>
+        <h2 class="text-gray-300">CTO-Magnite Solutions</h2>
+      </div>
+    </div>
+    <div class="p-2 flex gap-2 justify-start items-center w-[300px] rounded border">
+      <div class="h-12 w-12 rounded-full bg-gray-500"></div>
+      <div class="flex flex-col flex-start">
+        <h1 class="text-yellow-300 font-bold">Omkar Khutwad</h1>
+        <h2 class="text-gray-300">Manager-Magnite Solutions</h2>
+      </div>
+    </div>
+    <div class="p-2 flex gap-2 justify-start items-center w-[300px] rounded border">
+      <div class="h-12 w-12 rounded-full bg-gray-500"></div>
+      <div class="flex flex-col flex-start">
+        <h1 class="text-yellow-300 font-bold">Akshay Gaikwad</h1>
+        <h2 class="text-gray-300">Engineer-Magnite Solutions</h2>
+      </div>
+    </div>
+    </div>
+  </card>
+</div>
+    `,
+      },
+    ],
+  },
 ];
 
 export default data;
