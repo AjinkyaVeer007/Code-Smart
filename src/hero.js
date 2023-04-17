@@ -63,7 +63,7 @@ function Hero({ state, setState }) {
               className={`${item.showPreview} w-[90vw] lg:w-[80vw] py-6 rounded-b flex justify-center items-center border border-slate-600`}
             >
               {/* Preview */}
-              <div dangerouslySetInnerHTML={{ __html: item.previewCode }} />
+              <div dangerouslySetInnerHTML={{ __html: item.code }} />
             </div>
 
             {/* Code */}
