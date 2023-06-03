@@ -1,6 +1,7 @@
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import Intro from "./Components/intro";
 
 function Hero({ state, setState }) {
   const handleClick = (item, id) => {
@@ -39,6 +40,7 @@ function Hero({ state, setState }) {
   return (
     <div className="overflow-y-scroll scrollbar-hide flex flex-col justify-center items-center mb-4">
       {/* Components Mapping */}
+      {state[0] ? null : <Intro />}
       {state.map((item) => {
         return (
           <div key={`${item.id}${item.common}`} className="flex flex-col">
