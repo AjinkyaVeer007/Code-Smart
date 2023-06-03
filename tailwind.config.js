@@ -7,6 +7,7 @@ module.exports = {
     "./src/hero.js",
     "./src/codeData.js",
     "./src/test.js",
+    "./src/Components/intro.jsx",
   ],
   theme: {
     extend: {},
