@@ -66,7 +66,7 @@ function Hero({ state, setState }) {
             >
               {/* Preview */}
               <div
-                className="overflow-y-scroll scrollbar-hide"
+                className="overflow-y-scroll scrollbar-hide w-full flex justify-center items-center"
                 dangerouslySetInnerHTML={{ __html: item.code }}
               />
             </div>

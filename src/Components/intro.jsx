@@ -1,10 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Intro() {
+  const navigate = useNavigate();
   return (
     <section class="bg-gray-900 text-white">
-      <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-        <div class="mx-auto max-w-3xl text-center">
+      <div class="mx-auto px-4 py-32 lg:flex lg:items-center">
+        <div class="mx-auto text-center">
           <h1 class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
             Free Tailwind CSS Components
             <span class="sm:block">Made to Code Smartly</span>
@@ -15,12 +17,14 @@ function Intro() {
           </p>
 
           <div class="mt-8 flex flex-wrap justify-center gap-4">
-            <a
+            <div
+              onClick={() => {
+                navigate("/test");
+              }}
               class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              href="/"
             >
               Get Started
-            </a>
+            </div>
           </div>
         </div>
       </div>

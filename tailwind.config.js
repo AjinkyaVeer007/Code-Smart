@@ -6,8 +6,9 @@ module.exports = {
     "./src/Components/sidebarComponents.jsx",
     "./src/hero.js",
     "./src/codeData.js",
-    "./src/test.js",
+    "./src/Components/test.jsx",
     "./src/Components/intro.jsx",
+    "./src/Structure.js",
   ],
   theme: {
     extend: {},

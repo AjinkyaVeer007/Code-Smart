@@ -26,7 +26,7 @@ const data = [
         text: "</>",
         copyText: "Copy Code",
 
-        code: `
+        code: `    
       <button
         type="button"
         class="inline-flex w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-blue-700 bg-blue-700 px-3 py-2 text-sm font-medium text-white transition hover:border-blue-800 hover:bg-blue-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300">
@@ -50,7 +50,7 @@ const data = [
          stroke-width="24"></line>
         </svg>
         <span>Button</span>
-      </button>
+      </button>  
       `,
       },
       {
@@ -286,7 +286,7 @@ const data = [
         copyText: "Copy Code",
 
         code: `
-      <div class="w-full space-y-1">
+      <div class=" space-y-1">
         <div class="block text-sm text-white font-medium">Website Name</div>
         <div class="flex">
           <span class="flex items-center bg-pink-500 text-white px-3 pointer-events-none sm:text-sm rounded-l-md ">https://</span>
@@ -355,7 +355,7 @@ const data = [
         copyText: "Copy Code",
 
         code: `
-      <div class="flex justify-center items-center gap-2 w-full space-y-1">
+      <div class="flex justify-center items-center gap-2 space-y-1">
         <div class="block text-sm text-white text-lg">Password :-</div>     
           <input type="password" placeholder="Enter Password..." class="flex-1 border-0 p-2 focus:outline-none focus:ring-2 focus:ring-red-500 sm:text-sm text-lg rounded-md">
       </div>
@@ -370,7 +370,7 @@ const data = [
         copyText: "Copy Code",
 
         code: `
-      <div class="flex justify-center items-center gap-2 w-full space-y-1">
+      <div class="flex justify-center items-center gap-2 space-y-1">
         <div class="block text-sm text-white text-lg">Number :-</div>     
           <input type="number" placeholder="Enter number..." class="flex-1 border-0 p-2 focus:outline-none focus:ring-2 focus:ring-lime-400 sm:text-sm text-lg rounded-md">
       </div>
@@ -437,7 +437,7 @@ const data = [
         copyText: "Copy Code",
 
         code: `
-      <div class="mx-auto w-full">
+      <div class="mx-auto">
         <div class="flex justify-between items-center text-gray-100 font-bold">
           <span>1</span>
           <span>2</span>
@@ -463,7 +463,7 @@ const data = [
         copyText: "Copy Code",
 
         code: `
-        <div class="w-16 h-16 border-8 border-dashed border-orange-400 rounded-full animate-spin "></div>
+        <div class="w-16 h-16 border-4 border-dashed border-orange-400 rounded-full animate-spin "></div>
     `,
       },
       {
@@ -678,6 +678,328 @@ const data = [
   </card>
 </div>
     `,
+      },
+    ],
+  },
+  {
+    Alert: [
+      {
+        id: 1,
+        common: "Alert",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `<div class="flex flex-col justify-center items-center w-full mx-2">
+        <div class="bg-red-100 w-full mx-2 mb-2 p-4 rounded border border-2 border-red-300 text-red-400 flex justify-between items-center">
+        <h4>Tailwind Alert...!</h4>
+        <div class="text-lg ">x</div>
+      </div>
+      <div class="bg-yellow-100 w-full mx-2 mb-2 p-4 rounded border border-2 border-yellow-300 text-yellow-400 flex justify-between items-center">
+        <h4>Tailwind Alert...!</h4>
+        <div class="text-lg ">x</div>
+      </div>
+      <div class="bg-purple-100 w-full mx-2 mb-2 p-4 rounded border border-2 border-purple-300 text-purple-400 flex justify-between items-center">
+        <h4>Tailwind Alert...!</h4>
+        <div class="text-lg ">x</div>
+      </div>
+      </div>`,
+      },
+      {
+        id: 2,
+        common: "Alert",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `<div class="flex flex-col justify-center items-center w-full mx-2">
+        <div class="bg-lime-100 w-full mx-2 mb-2 p-4 rounded border-l-8 border-lime-300 text-lime-400 flex justify-between items-center">
+        <h4>Tailwind Alert...!</h4>
+        <div class="text-lg ">x</div>
+      </div>
+      </div>`,
+      },
+    ],
+  },
+  {
+    Navbar: [
+      {
+        id: 1,
+        common: "Navbar",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `<nav class="bg-gray-800 w-full mx-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <img
+                  class="h-12 w-12"
+                  src="https://cdn.shopify.com/shopifycloud/hatchful_web_two/bundles/5a2493173e6664f9ef97833287856a5b.svg"
+                  alt="Logo"
+                />
+              </div>
+              <div class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    Services
+                  </a>
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    Contact
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="-mr-2 flex md:hidden">
+              <button
+                type="button"
+                class="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+              >
+                <svg
+                  class="h-6 w-6"
+                  stroke="currentColor"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:hidden">
+          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
+            >
+              Home
+            </a>
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            >
+              About
+            </a>
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            >
+              Services
+            </a>
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>`,
+      },
+      {
+        id: 2,
+        common: "Navbar",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `<nav class="bg-blue-500 w-full mx-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <img
+                  class="h-14 w-14"
+                  src="https://cdn.shopify.com/shopifycloud/hatchful_web_two/bundles/5a2493173e6664f9ef97833287856a5b.svg"
+                  alt="Logo"
+                />
+              </div>
+              <div class="hidden md:block ml-10">
+                <div class="flex items-baseline space-x-4">
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-white bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+                  >
+                    Services
+                  </a>
+                  <a
+                    href="#"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+                  >
+                    Contact
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  class="px-4 py-2 rounded-md focus:outline-none focus:ring-blue-300 focus:border-blue-300"
+                />
+              </div>
+              <div class="ml-4 flex items-center md:ml-6">
+                <button
+                  type="button"
+                  class="bg-blue-900 inline-flex items-center justify-center p-2 rounded-md text-blue-400 hover:text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 focus:text-white"
+                >
+                  <svg
+                    class="h-6 w-6"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:hidden">
+          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-white bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+            >
+              Home
+            </a>
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+            >
+              About
+            </a>
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+            >
+              Services
+            </a>
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-base font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>`,
+      },
+      {
+        id: 3,
+        common: "Navbar",
+        showCode: "hidden",
+        showPreview: "block",
+        text: "</>",
+        copyText: "Copy Code",
+
+        code: `<nav class="bg-red-800 w-full mx-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <img
+                  class="h-16 w-16"
+                  src="https://cdn.shopify.com/shopifycloud/hatchful_web_two/bundles/5a2493173e6664f9ef97833287856a5b.svg"
+                  alt="Logo"
+                />
+              </div>
+              <div class="ml-4 text-white text-lg font-semibold hidden sm:block">
+                Company Name
+              </div>
+            </div>
+            <div class="sm:hidden">
+              <button
+                type="button"
+                class="text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700"
+              >
+                <svg
+                  class="h-6 w-6"
+                  stroke="currentColor"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="hidden sm:block">
+              <a
+                href="#"
+                class="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="sm:hidden">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <a
+              href="#"
+              class="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </nav>`,
       },
     ],
   },
